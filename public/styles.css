@@ -1,7 +1,7 @@
 body {
 		 padding: 20px;
 		 background-image: url("https://i.imgur.com/dvnJ2Oo.jpeg");
-		 background-size: cover;
+		 background-size: #00701deb;
 		 font-family: 'Poppins', sans-serif;
 	   border-radius: 10px;
 }
@@ -14,7 +14,7 @@ body {
 		 padding: 20px;
 		 margin-top: 20px;
 		 margin-bottom: 20px;
-	  outline: 2px solid #FFFFFF;
+	  outline: 2px solid #000000eb;
 }
  h1 {
 		 color: #7aff00;
@@ -42,17 +42,17 @@ body {
 		 resize: none;
 }
  .btn-primary {
-		 background-color: #1d3d00a1;
+		 background-color: #006401;
 		 border: 1px solid00000000;
-	   outline: 2px solid #FFFFFF;
+	   outline: 2px solid #098a00;
 }
  .btn-primary:hover {
 		 background-color: #50ff00;
 		 border: 1px solid #0056b3;
-	   outline: 2px solid #FFFFFF;
+	   outline: 2px solid #ceff00a9;
 }
  .success-message {
-		 color: green;
+		 color: #2bff2e;
 		 margin-top: 10px;
 }
  .footer {
@@ -60,7 +60,7 @@ body {
 		 padding: 10px;
 		 text-align: center;
 		 font-size: 16px;
-		 color:#FFFFFFd4;
+		 color:;
 		 margin-top: 50px;
 		 border-top: 1px solid #blue;
 		 position: fixed;
@@ -74,7 +74,7 @@ body {
 		 margin-right: 30px;
 }
  .container-buttons {
-		 margin-top: 20px;
+		 margin-top: 200px;
 		 text-align: center;
 }
  .container-buttons .btn {
@@ -99,13 +99,13 @@ body {
 	border-radius: 8px;
 	cursor: pointer;
 	transition: background-color 0.3s ease, border-color 0.3s ease; 
-	border-color: #ccc;
-	background-color#fffd4;
+	border-color: #bfeaffea;
+	background-color:#bfeaffea;
 }
 
 .form-check:hover {
 	background-color#f5f50f; 
-	border-color#f8f8f8d4; 
+	border-color:#f8f8f8d4; 
 }
 
 .form-check-input {
@@ -126,11 +126,11 @@ body {
 	cursor: pointer;
 	transition: background-color 0.3s ease, border-color 0.3s ease; 
 	border-color#ccc55;
-	background-color: transparent ;
+	background-color:#34e10038;
 }
 #listOfCommands, #listOfCommandsEvent, #prefixOfCommands, #adminOfCommands {
 	border-radius:8px;
-	background-color:#00ac8299
+	background-color: transparent
 }
 
 #listOfCommands:not(.modal), #listOfCommandsEvent:not(.modal), #prefixOfCommands:not(.modal),
@@ -148,17 +148,17 @@ video {
 	max-height: 70%;
 	margin-bottom: 20px;
 	cursor: default;
-	outline: 2px solidFFFFFF00;
+	outline: 2px solid;
 	background: linear-gradient(135deg, aqua, rgb(0, 255, 0), rgb(255, 255, 0), orange, red, rgb(255, 0, 234));
 	border-radius: 10px;
-	animation: animate 1.5s linear infinite;
+	animation: animate 1s linear infinite;
 	 border: 2px solid transparent;
 animation: neon-border 2s linear infinite alternate; /* Adjust animation duration and timing */
 	}
 
  @keyframes neon-border {
 	 from {
-		border-color#ff000000; /* Start color */
+		border-color:#ff000000; /* Start color */
 	box-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000; /* Adjust shadow colors and sizes */
 }
 to {
@@ -181,6 +181,6 @@ to {
 	 margin: auto;
 }
 iyas {
-    background: #50ff004a;
-    border-color: #000000;
+    background: #b9ff00;
+    border-radius:20px;
 }
