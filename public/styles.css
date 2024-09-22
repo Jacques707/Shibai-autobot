@@ -126,7 +126,7 @@ body {
 	cursor: pointer;
 	transition: background-color 0.3s ease, border-color 0.3s ease; 
 	border-color#ccc55;
-	background-color:#34e10038;
+	background-color: transparent ;
 }
 #listOfCommands, #listOfCommandsEvent, #prefixOfCommands, #adminOfCommands {
 	border-radius:8px;
